@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "colosseum:block/mineapple_crown"
+	}
+}

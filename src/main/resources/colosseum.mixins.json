@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.sindercube.colosseum.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BlocksMixin",
+		"EntityMixins$LivingEntityMixin",
+		"EntityMixins$MobEntityMixin",
+		"EntityMixins$PlayerEntityMixin",
+		"SnifferEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"age=0": {
+			"model": "colosseum:block/mineapple_plant_young"
+		},
+		"age=1": {
+			"model": "colosseum:block/mineapple_plant_mature"
+		},
+		"age=2": {
+			"model": "colosseum:block/mineapple_plant_ripe"
+		}
+	}
+}

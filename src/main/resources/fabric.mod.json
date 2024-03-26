@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "colosseum",
+	"version": "${mod_version}",
+	"name": "Colosseum",
+	"description": "W.I.P.",
+
+	"entrypoints": {
+		"main": [ "com.sindercube.colosseum.Colosseum" ],
+		"client": [ "com.sindercube.colosseum.ColosseumClient" ]
+	},
+
+	"mixins": [
+		"colosseum.mixins.json",
+		{ "config": "colosseum.client.mixins.json", "environment": "client" }
+	],
+	"accessWidener": "colosseum.accesswidener",
+	"depends": {
+		"fabric-api": "${fabric_version}"
+	}
+}
